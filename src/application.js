@@ -1,9 +1,11 @@
-var NotFound = require('./components/Pages/NotFound');
-var React    = require('react');
+"use strict";
+
+var React      = require('react');
+var _          = require('lodash');
+var Router     = require('./components/Router');
 
 global.React = React;
 
-React.render(
-    <NotFound />,
-    document.body
-);
+Router.run(function(Root) {
+  React.render(<Root/>, document.body);
+});
