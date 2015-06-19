@@ -1,0 +1,7 @@
+*.log
+.DS_Store
+node_modules
+
+nginx.conf
+/nginx/nginx.pid
+/public
