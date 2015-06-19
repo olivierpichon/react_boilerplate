@@ -12,5 +12,6 @@ var routes = (
 );
 
 module.exports = Router.create({
-  routes: routes
+  routes: routes,
+  location: Router.HistoryLocation
 });
